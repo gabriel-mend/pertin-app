@@ -7,12 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0184BA9E2D085D5B00AC280E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BA9D2D085D5600AC280E /* Colors.swift */; };
+		0184BAA12D085E0B00AC280E /* PertinFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAA02D085DF700AC280E /* PertinFlowController.swift */; };
+		0184BAA52D08638900AC280E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAA42D08638300AC280E /* SplashViewController.swift */; };
+		0184BAA72D0863F200AC280E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAA62D0863ED00AC280E /* SplashView.swift */; };
+		0184BAAA2D088DBA00AC280E /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAA92D088DBA00AC280E /* TipsView.swift */; };
+		0184BAAD2D08954400AC280E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAAC2D08953500AC280E /* WelcomeViewController.swift */; };
+		0184BAAF2D08955E00AC280E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAAE2D08955E00AC280E /* WelcomeView.swift */; };
+		0184BAB22D08AD2C00AC280E /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAB12D08AD2C00AC280E /* UIViewController.swift */; };
+		0184BAB42D08BEC600AC280E /* SplashFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAB32D08BEC600AC280E /* SplashFlowDelegate.swift */; };
+		0184BAB62D08EBAD00AC280E /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAB52D08EBA400AC280E /* Typography.swift */; };
+		0184BAB92D0A029700AC280E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAB82D0A029700AC280E /* HomeView.swift */; };
+		0184BABB2D0A02CB00AC280E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BABA2D0A02CB00AC280E /* HomeViewController.swift */; };
+		0184BABD2D0A050800AC280E /* WelcomeFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BABC2D0A050800AC280E /* WelcomeFlowDelegate.swift */; };
+		0184BAC12D0A264200AC280E /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAC02D0A263C00AC280E /* PlaceTableViewCell.swift */; };
+		0184BAC42D0A3C7500AC280E /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BAC32D0A3C7500AC280E /* PlaceModel.swift */; };
 		A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FD822CD93BFE001A762A /* AppDelegate.swift */; };
 		A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FD842CD93BFE001A762A /* SceneDelegate.swift */; };
 		A9E7FD8C2CD93C01001A762A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E7FD8B2CD93C01001A762A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0184BA9D2D085D5600AC280E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0184BAA02D085DF700AC280E /* PertinFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PertinFlowController.swift; sourceTree = "<group>"; };
+		0184BAA42D08638300AC280E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		0184BAA62D0863ED00AC280E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0184BAA92D088DBA00AC280E /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		0184BAAC2D08953500AC280E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0184BAAE2D08955E00AC280E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		0184BAB12D08AD2C00AC280E /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		0184BAB32D08BEC600AC280E /* SplashFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashFlowDelegate.swift; sourceTree = "<group>"; };
+		0184BAB52D08EBA400AC280E /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		0184BAB82D0A029700AC280E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0184BABA2D0A02CB00AC280E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0184BABC2D0A050800AC280E /* WelcomeFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeFlowDelegate.swift; sourceTree = "<group>"; };
+		0184BAC02D0A263C00AC280E /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		0184BAC32D0A3C7500AC280E /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		A9E7FD7F2CD93BFE001A762A /* pertin-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pertin-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E7FD822CD93BFE001A762A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9E7FD842CD93BFE001A762A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +61,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0184BA9F2D085DC700AC280E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0184BAA02D085DF700AC280E /* PertinFlowController.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0184BAA22D08636D00AC280E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0184BAB72D0A022F00AC280E /* Home */,
+				0184BAAB2D08952B00AC280E /* Welcome */,
+				0184BAA32D08637400AC280E /* Splash */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0184BAA32D08637400AC280E /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0184BAA62D0863ED00AC280E /* SplashView.swift */,
+				0184BAA42D08638300AC280E /* SplashViewController.swift */,
+				0184BAB32D08BEC600AC280E /* SplashFlowDelegate.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		0184BAA82D088DAA00AC280E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0184BAA92D088DBA00AC280E /* TipsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0184BAAB2D08952B00AC280E /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				0184BAAC2D08953500AC280E /* WelcomeViewController.swift */,
+				0184BAAE2D08955E00AC280E /* WelcomeView.swift */,
+				0184BABC2D0A050800AC280E /* WelcomeFlowDelegate.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		0184BAB02D08ACEF00AC280E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0184BAB12D08AD2C00AC280E /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0184BAB72D0A022F00AC280E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0184BABF2D0A262800AC280E /* TableViewCell */,
+				0184BAB82D0A029700AC280E /* HomeView.swift */,
+				0184BABA2D0A02CB00AC280E /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0184BABF2D0A262800AC280E /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0184BAC02D0A263C00AC280E /* PlaceTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		0184BAC22D0A3C6500AC280E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0184BAC32D0A3C7500AC280E /* PlaceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A9E7FD762CD93BFE001A762A = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +189,11 @@
 		A9E7FD982CD93C7F001A762A /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0184BAC22D0A3C6500AC280E /* Models */,
+				0184BAB02D08ACEF00AC280E /* Extensions */,
+				0184BAA82D088DAA00AC280E /* Components */,
+				0184BAA22D08636D00AC280E /* Scenes */,
+				0184BA9F2D085DC700AC280E /* Coordinator */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -86,6 +201,8 @@
 		A9E7FD992CD93C84001A762A /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				0184BAB52D08EBA400AC280E /* Typography.swift */,
+				0184BA9D2D085D5600AC280E /* Colors.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -159,8 +276,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0184BAB62D08EBAD00AC280E /* Typography.swift in Sources */,
+				0184BAC12D0A264200AC280E /* PlaceTableViewCell.swift in Sources */,
+				0184BAC42D0A3C7500AC280E /* PlaceModel.swift in Sources */,
 				A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */,
+				0184BAAD2D08954400AC280E /* WelcomeViewController.swift in Sources */,
+				0184BA9E2D085D5B00AC280E /* Colors.swift in Sources */,
+				0184BAA12D085E0B00AC280E /* PertinFlowController.swift in Sources */,
+				0184BABB2D0A02CB00AC280E /* HomeViewController.swift in Sources */,
+				0184BAAF2D08955E00AC280E /* WelcomeView.swift in Sources */,
 				A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */,
+				0184BAAA2D088DBA00AC280E /* TipsView.swift in Sources */,
+				0184BAA52D08638900AC280E /* SplashViewController.swift in Sources */,
+				0184BABD2D0A050800AC280E /* WelcomeFlowDelegate.swift in Sources */,
+				0184BAA72D0863F200AC280E /* SplashView.swift in Sources */,
+				0184BAB92D0A029700AC280E /* HomeView.swift in Sources */,
+				0184BAB42D08BEC600AC280E /* SplashFlowDelegate.swift in Sources */,
+				0184BAB22D08AD2C00AC280E /* UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,11 +423,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WNNJ4KX4AX;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NearbyApp NLW/Info.plist";
+				INFOPLIST_FILE = "pertin-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = SplashViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -305,8 +437,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Abidu.NearbyApp-NLW";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abidu.pertin-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,11 +451,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WNNJ4KX4AX;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NearbyApp NLW/Info.plist";
+				INFOPLIST_FILE = "pertin-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = SplashViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -332,8 +465,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Abidu.NearbyApp-NLW";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abidu.pertin-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -9,6 +9,8 @@ import Foundation
 import UIKit
 
 class WelcomeView: UIView {
+    var didTapButton: (() -> Void?)?
+    
     private let logoImageView: UIImageView = {
         let image = UIImageView(image: UIImage(named: "logo"))
         image.contentMode = .scaleAspectFit
@@ -51,13 +53,14 @@ class WelcomeView: UIView {
         return stackView
     }()
     
-     private let startButton: UIButton = {
+    let startButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Começar", for: .normal)
         button.backgroundColor = Colors.greenBase
         button.setTitleColor(Colors.gray100, for: .normal)
         button.layer.cornerRadius = 8
         button.titleLabel?.font = Typography.action
+        button.addTarget(self, action: #selector(didTap), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -70,6 +73,11 @@ class WelcomeView: UIView {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    @objc
+    private func didTap() {
+        didTapButton?()
     }
     
     private func setupUI() {

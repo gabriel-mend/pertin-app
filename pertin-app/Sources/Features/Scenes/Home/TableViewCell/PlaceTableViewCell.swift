@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class PlaceTableViewCell: UITableViewCell {
-    static let identifier = "PlaceTableCell"
+    static let identifier = "PlaceTableCellView"
     
     let itemImageView: UIImageView = {
         let image = UIImageView()
@@ -29,9 +29,9 @@ class PlaceTableViewCell: UITableViewCell {
     
     let descriptionLabel: UILabel = {
         let label = UILabel()
-        label.font = Typography.textSM
+        label.font = Typography.textXS
         label.numberOfLines = 0
-        label.textColor = Colors.gray300
+        label.textColor = Colors.gray500
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -49,7 +49,7 @@ class PlaceTableViewCell: UITableViewCell {
         let label = UILabel()
         label.font = Typography.textXS
         label.numberOfLines = 0
-        label.textColor = Colors.gray300
+        label.textColor = Colors.gray400
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -90,17 +90,19 @@ class PlaceTableViewCell: UITableViewCell {
             containerView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -8),
             containerView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -8),
             
+            itemImageView.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 8),
+            itemImageView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: 8),
             itemImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 8),
             itemImageView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
             itemImageView.heightAnchor.constraint(equalToConstant: 104),
             itemImageView.widthAnchor.constraint(equalToConstant: 116),
             
             titleLabel.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 8),
-            titleLabel.leadingAnchor.constraint(equalTo: itemImageView.trailingAnchor, constant: 8),
+            titleLabel.leadingAnchor.constraint(equalTo: itemImageView.trailingAnchor, constant: 16),
             titleLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -8),
             
             descriptionLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 4),
-            descriptionLabel.leadingAnchor.constraint(equalTo: itemImageView.trailingAnchor, constant: 8),
+            descriptionLabel.leadingAnchor.constraint(equalTo: itemImageView.trailingAnchor, constant: 16),
             descriptionLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -8),
             
             ticketIcon.leadingAnchor.constraint(equalTo: itemImageView.trailingAnchor, constant: 8),
@@ -108,16 +110,25 @@ class PlaceTableViewCell: UITableViewCell {
             ticketIcon.heightAnchor.constraint(equalToConstant: 13),
             ticketIcon.widthAnchor.constraint(equalToConstant: 11),
             
+            ticketLabel.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 8),
             ticketLabel.centerYAnchor.constraint(equalTo: ticketIcon.centerYAnchor),
             ticketLabel.leadingAnchor.constraint(equalTo: ticketIcon.trailingAnchor, constant: 4)
         ])
     }
     
     func configure(with place: Place) {
-        itemImageView.image = UIImage(named: place.imageName)
-        titleLabel.text = place.title
+        if let url = URL(string: place.cover) {
+            URLSession.shared.dataTask(with: url) { data, _, _ in
+                if let data = data, let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        self.itemImageView.image = image
+                    }
+                }
+            }.resume()
+        }
+        titleLabel.text = place.name
         descriptionLabel.text = place.description
-        ticketLabel.text = "cupons disponíveis"
+        ticketLabel.text = "\(place.coupons) cupons disponíveis"
     }
     
 }

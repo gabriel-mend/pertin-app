@@ -6,8 +6,7 @@
 //
 
 import Foundation
-import UIKit
 
 public protocol WelcomeFlowDelegate: AnyObject {
-    func decideNavigationFlow ()
+    func goToHome()
 }

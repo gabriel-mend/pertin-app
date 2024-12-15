@@ -29,8 +29,8 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 <table>
   <tr>
     <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://avatars.githubusercontent.com/u/49095200?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+      <a href="https://www.linkedin.com/in/gabriel-mendonca-pereira/" title="Linkedin">
+        <img src="https://avatars.githubusercontent.com/u/49095200?v=4" width="100px;" alt="Foto do gabriel no GitHub"/><br>
         <sub>
           <b>Gabriel Mendonça Pereira</b>
         </sub>
